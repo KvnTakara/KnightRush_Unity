@@ -1,0 +1,2036 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.13f1 (5f90a5ebde0f) revision 6262949'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32698 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Eiki Takara/Downloads/KnightRush-V03/KnightRush
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53661
+Successfully changed project path to: C:/Users/Eiki Takara/Downloads/KnightRush-V03/KnightRush
+C:/Users/Eiki Takara/Downloads/KnightRush-V03/KnightRush
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4992] Host "[IP] 192.168.0.6 [Port] 0 [Flags] 2 [Guid] 3735771945 [EditorId] 3735771945 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KIUKS1S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4992] Host "[IP] 192.168.0.6 [Port] 0 [Flags] 2 [Guid] 3735771945 [EditorId] 3735771945 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KIUKS1S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 1327.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Eiki Takara/Downloads/KnightRush-V03/KnightRush/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   NVIDIA
+    VRAM:     5968 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.178682 seconds.
+- Loaded All Assemblies, in  5.331 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.222 seconds
+Domain Reload Profiling: 5551ms
+	BeginReloadAssembly (3943ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (323ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (228ms)
+	LoadAllAssembliesAndSetupDomain (824ms)
+		LoadAssemblies (3940ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (822ms)
+			TypeCache.Refresh (821ms)
+				TypeCache.ScanAssembly (620ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (223ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (173ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (111ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  6.754 seconds
+Refreshing native plugins compatible for Editor in 5.30 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.792 seconds
+Domain Reload Profiling: 7540ms
+	BeginReloadAssembly (135ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (6528ms)
+		LoadAssemblies (6096ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (510ms)
+			TypeCache.Refresh (476ms)
+				TypeCache.ScanAssembly (423ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (792ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (638ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (462ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 5.16 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5672 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 100 unused Assets / (0.6 MB). Loaded Objects now: 6118.
+Memory consumption went from 223.6 MB to 222.9 MB.
+Total: 4.073700 ms (FindLiveObjects: 0.421800 ms CreateObjectMapping: 0.458400 ms MarkObjects: 2.843300 ms  DeleteObjects: 0.346700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 396010.106337 seconds.
+  path: Assets/Settings/UniversalRP.asset
+  artifactKey: Guid(681886c5eb7344803b6206f758bf0b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRP.asset using Guid(681886c5eb7344803b6206f758bf0b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24cfa7bb2144b0742681bda9b6e56f28') in 0.009303 seconds
+Number of updated asset objects reloaded before import = 9
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 308.900574 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2c2fbacc06ef75ab7f1fc6997a5df66') in 0.243181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 18.879492 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17529f8ca45253403c9c9153441af07f') in 0.035747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 4.390041 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ad79f5a44db8e53b59c71b71747a66') in 0.026285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 7.810318 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f91f6d4498b50498629bdc7eb30274') in 0.024437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 10.930614 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '684bddae88579f537db24f54f26a085e') in 0.025269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 15.091298 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ea4ae826ca67fc7b7bbe89fba06692') in 0.037075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 23.722701 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f05575ee09c70c05668625e11a0673f9') in 0.027406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 4.271318 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fea21a96f1a11b541844b109ebf929f') in 0.027602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 14.880037 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe8d694b9f1806c5835690c95f4de18') in 0.029217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 1.800732 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8024afa1cbe9dbd5905f6be3d21ca8') in 0.023933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 4.454486 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ecf650b09743177340a90c5379c7c66') in 0.024753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 16.703179 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e3a29457a3b7050d3c74568adc7992') in 0.032948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 2.374811 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a3e10460e35606884ab2413aa5027bd') in 0.023558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 14.494498 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b02e0ed0a430691680daa59a1b9d318') in 0.024389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 2.403896 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b35fb3a0da57bdabfdf3ceec5b0f2042') in 0.026633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 8.038152 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62757e3ecff728aa47ef0358b064baf6') in 0.032730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 2.185349 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '540763af8cc2b4cc2ce7962a61e58d0d') in 0.024772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 16.492489 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24885ac59aca0f804f79a87cf6c24dea') in 0.033600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 8.053564 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c680b4f52d41c58fd368d2a22611bd') in 0.024317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 6.224111 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2a63b489bcf88b50434f4b94975261') in 0.023918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 5.213208 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b956383a3d261dbda5a8befe398b378') in 0.023997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 24.394921 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c28890370613341b310a28ab360a093') in 0.044959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 22.963751 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0c14025a1ab126bdb3f2d28b526352') in 0.032183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 43.646818 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab172164bce1a06b3ebf7200979c747') in 0.027097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 15.697808 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d3f112f05097476666637b29b0308d') in 0.023588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 21.197559 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c47b9b56dc8b261fda2bb4be6bba87a') in 0.034497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 3.597809 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38f9dd518426e261bb6aa4172301660a') in 0.027855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 7.807820 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a8e7ebcfcffcf0c4c4818f58da6b80') in 0.026720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 12.913332 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13888668398df394685f8b06f102c49e') in 0.030115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 29.274022 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bafa5b6b9d465af31ab7a92fbe955eca') in 0.023982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 41.181058 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afae3f3a1ad0adad6dfb0f6d1d874682') in 0.025638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 12.470450 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c27eb128b6642da22a778295a76e93fb') in 0.024844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 22.805750 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8df0a9bcca7c0e723606a7c3558ffd') in 0.030284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 12.484749 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c0b2718409a085922236b9eeeff26a') in 0.027253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 20.835394 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cdc56e0edf062e47d901b2765bc3799') in 0.025435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 3.808361 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df76de2809adbb2c90a50f3350be2580') in 0.031258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 2.080337 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b54849d252407874efa9640f8925af') in 0.027283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 4.689064 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e431f77f2be5771aff2cd5a4c64be9d') in 0.023529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 5.027783 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6ceaa30495747916a298842fe8bb858') in 0.035172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 6.999986 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4896fe240f20e3c64fd51a19c9ef0030') in 0.024193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 10.765478 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6048cdcc77c1d5af6b61fb59e6333a9') in 0.027577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 5.411042 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad8c02d536c2f5620cf5b6bdb3731c7') in 0.027074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 4.908953 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd09df22182db2b8c00b58bed85253c0e') in 0.032615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 3.185761 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3179d268c8dc35d7acfced51c28ffa5a') in 0.024170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 3.164235 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af9c6b7fe950acfd2f6072c5ffd891e') in 0.023601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 1.630293 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb3bfb3d27888e736bd944248098f72') in 0.030997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 2.325173 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f961434034c72297c3212c80192830e5') in 0.032300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 2.727740 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb30228245dd9c6e043b9a3d0846d6cc') in 0.033737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 6.047445 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a28c7b40a1d5a652569522f1a178c18b') in 0.023721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 4.216341 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532f3780b91879deabecd2963b6444aa') in 0.023922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 6.416084 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcf760ea91fbd2751fd89d4d38e6a83b') in 0.031176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 6.810269 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df3304b8206f1c6512d7aa701b525a8') in 0.024279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 2.202104 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b151c50444e8c502a12ec577a5b15544') in 0.023957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 3.797577 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75593a56c67320e029a31b11a1c72653') in 0.026442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 23.215228 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3702237388f1dcbcd76ce5cffd595f46') in 0.024535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 23.409630 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10dbf73b4974e479af166b695755bbad') in 0.031421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 5.805059 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58edbcea3a4ca730c22d102169f41505') in 0.023829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 13.886743 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663cfad0f6a31e6f830f6e25aebab231') in 0.026249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 3.793099 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814fe46ebdedc6837fc503fc751eba86') in 0.024595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 14.695187 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f95b263bf5c4d9333c792f05a463cd') in 0.036821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 7.021777 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb0ac26e429e2adabce18e4050bf02e0') in 0.032034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 0.360945 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '572c16ddf84a605bef1c3f53b9568a52') in 0.023449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 8.037770 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2b8a55a7a8489ef16b4bb65b037559') in 0.024105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 6.224773 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6927c1250207d64b52f30f18c369d908') in 0.031219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 4.801613 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c4033192897faafe9f7a5e586f0fc6') in 0.032709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 3.181911 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb48112a4c27bd6e1a150e04212216e') in 0.026147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 2.801820 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b99e192ba1c5c63d02bb653a3249ce3') in 0.024586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 2.779703 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a32d96fd659c8c83aa7ea9037acc2c5') in 0.029017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 15.919494 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e318c2584425d58570f8d41e1470f1f0') in 0.024665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 3.796310 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c3efc827c6f26c87d8542e011fb1eff') in 0.023890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 4.616790 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d1701088d5e88b2f703e530ab53e6f') in 0.030286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 24.652023 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88fed66e41fbf7e77a2021830543830c') in 0.026675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 3.984153 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f814629fc9d7af69af87d2ef1ba4f5c') in 0.024662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 5.465856 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2383b412be199e3c4d0e7bb30dd2e8a5') in 0.024850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 1.212555 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b440a82bcef199d2fd424e7ba4a048a') in 0.028674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 2.247279 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb8282964b0ac7b420d1cac4f996ce44') in 0.027505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 2.795365 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b8443bbcafcf0df458795cfa89c77b') in 0.024877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 3.560029 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60738695ac966ac4c0d16c626c354876') in 0.024335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 1.640100 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cbec925e35475c4f5c69dfb7237add6') in 0.032089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 4.784344 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c28e75f3d93e409800739ce63e995216') in 0.024952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 0.971339 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93cac8baab0fc88414a22f29e05f67ab') in 0.023375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 2.582056 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ed342be651969ed1a66e610a99538c') in 0.024609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 2.394967 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b408b417ad488b2730dbc170c254b398') in 0.023851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 5.820288 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d8a8c5c5118d70f541b0b417917aac') in 0.024236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 1.375352 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e258d78e671169a4662ff5452ad19c08') in 0.023688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 1.984396 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '079eb03ef53fbfcef1d39c5e9d973437') in 0.024555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 19.574499 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea08a64c8a1ade648e1168a06e6fbf05') in 0.037437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 4.991965 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd08213dc5f5c44b4b69131c359c13e9') in 0.033540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 18.234830 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb0ce5cd96ace8e360f95bbd5afea3e3') in 0.024067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 3.597990 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5614d212892ea030749019c30fbe641d') in 0.026114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 46.828837 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '835e80db8b35f351f0a82ed78cc589ed') in 0.029406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 29.580303 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae233d4a2d3a62256dd8b8f3099f12a') in 0.029631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 1.177004 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ff0f55c298249f0e5bb1d49303d624') in 0.032029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 6.050278 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72cf1060326df0315a898617380af280') in 0.026283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 44.375344 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fedc74fa146d287f3985b870b91c54b2') in 0.024447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 90.645619 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f148f81d77001e9faf3bc4012250c11') in 0.027704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 43.819692 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab2fe8529d27e5a6565938c5b761a6e') in 0.007321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.976731 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe64bbd43aec02fbe72076326b94c26') in 0.024585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 3.513133 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdab854400b7668917e718827590c87c') in 0.031365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 22.970208 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0929084a4d3e7a3889cf35701a836117') in 0.023780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 5.798288 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ebd66467e78c2b2f781dfbe94cc073') in 0.023981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 21.018184 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c5ab1a6af6751533b4ee5e11a3dd776') in 0.025654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 4.185208 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9067fd8c07212565303f9f330d2b70d3') in 0.026392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 15.727531 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b4ca937d3c29b21a44548010a8f7394') in 0.030751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 7.198684 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b8fdecc87625497fba6e28113b6fa1') in 0.032610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 56.167762 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ab9b0f8f3372d265b8d5097af378a5') in 0.039512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 14.665275 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608b0a9b58ee8a8d878a08e10b1ee667') in 0.027605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 53.129139 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fbfe672075dc1c3eabc4d86cd0b220a') in 0.023528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 22.929937 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '730eec23fbbe40317f9365fb997d05d6') in 0.023854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 26.126077 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5689ce9844acd2a650f376d6a21eaf7') in 0.026105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 6.211739 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87f89b73c5647ee8d85895e456694d4') in 0.029571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 7.029016 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58fc64e46ce5a242aa382575fb501acf') in 0.026275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 4.395948 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2506d63ec2fecf0294fc9a2e63af6852') in 0.049642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 22.135440 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407612aee44d8a8e36db17da1b30c3e9') in 0.023485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 2.606415 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56858df31b8ad14a1a80e03f73f13813') in 0.024729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 8.652184 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a464a9ad813da503783027ed3abb8d1') in 0.033671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 5.407192 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3105be0f66d5113da230fe9d0e34c38') in 0.024070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 8.821438 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71cbc6bb1a8fe2b83d8fb8011818dfcd') in 0.032557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 3.783196 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b05686047c450d61a03be7dd873fa8ad') in 0.034006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 11.467529 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6b1c7061beca607f8b2385bdf2e4c0') in 0.024493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 1.841934 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a96a9ababc30345517822fa56e0235') in 0.025302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 91.773499 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21cbf4251e6dec131f14c8c392977af6') in 0.024093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 1.584765 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97af8fe5ba04cbb8e5afd61c9847aa80') in 0.023845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 8.234082 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed8f777dc41a21d38ef97d9a6e1b884') in 0.025549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 5.621074 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f126be63908cba3a8177214566d404') in 0.033161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 6.796782 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf0e24fe3f94b6ac2a9df0d8147e5e8') in 0.024292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 4.204248 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b16675fc2d65d79c50bee767dc2e435') in 0.023165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 66.210587 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad58cfbfccb1788a7de42039d6f6170') in 0.027672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 4.007623 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '824bb140a9cf71d5a7a0364704ee534f') in 0.024035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 4.003000 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37bd80eeb06642599f870403c511abb3') in 0.024386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 6.640211 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be19d6e8d5d73572e7791b04c456e07f') in 0.025197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 196.871215 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c11512cf7f9cddc71111ee311d1d338a') in 0.034153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 18.910709 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8edfea21804ab22c623a6db57dbdbbd1') in 0.033337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 15.075380 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen.prefab
+  artifactKey: Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen.prefab using Guid(de091755dc5f2314b8ea5838f2bac6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a0124e1450bb283096766d9d12d9d3') in 0.029919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 10.236146 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0a8c0ed6831d8b95d40bdfb8085d88') in 0.024167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 19.596773 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e6601a19d7c73e1b2991da56f9dbbf') in 0.029011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 5728.810038 seconds.
+  path: Assets/Scripts/FinalScore.cs
+  artifactKey: Guid(ef95b39a3238eb049a985e7e29d9650d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FinalScore.cs using Guid(ef95b39a3238eb049a985e7e29d9650d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb4df6e97def26fef6f0bbee6c21965') in 0.001222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.505 seconds
+Refreshing native plugins compatible for Editor in 5.12 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.615 seconds
+Domain Reload Profiling: 2114ms
+	BeginReloadAssembly (160ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (270ms)
+		LoadAssemblies (305ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (39ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1615ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (564ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (396ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 5.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5521 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (0.6 MB). Loaded Objects now: 6172.
+Memory consumption went from 204.5 MB to 203.9 MB.
+Total: 4.761100 ms (FindLiveObjects: 0.402800 ms CreateObjectMapping: 0.448800 ms MarkObjects: 3.590000 ms  DeleteObjects: 0.316700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4810.658235 seconds.
+  path: Assets/Resources/Prefabs/RedWinningScreen 1.prefab
+  artifactKey: Guid(a151af00af1cc22438c9d7f55775afc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedWinningScreen 1.prefab using Guid(a151af00af1cc22438c9d7f55775afc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a7f4b921974e51892db6ddfd211bfe') in 0.283935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 30.563524 seconds.
+  path: Assets/Settings/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65429280f87912653f81a594fada5c97') in 0.115854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.522 seconds
+Refreshing native plugins compatible for Editor in 5.38 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.455 seconds
+Domain Reload Profiling: 1972ms
+	BeginReloadAssembly (180ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (266ms)
+		LoadAssemblies (331ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1456ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (602ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (430ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 5.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5521 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (0.6 MB). Loaded Objects now: 6250.
+Memory consumption went from 206.7 MB to 206.1 MB.
+Total: 4.621200 ms (FindLiveObjects: 0.533600 ms CreateObjectMapping: 0.519200 ms MarkObjects: 3.072000 ms  DeleteObjects: 0.495300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 225.122056 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '405ed0b76dde9be00603027477da3f25') in 0.221379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 3.326026 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '537bf9773418f826af131f9433b24162') in 0.029314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.466 seconds
+Refreshing native plugins compatible for Editor in 5.09 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.362 seconds
+Domain Reload Profiling: 1823ms
+	BeginReloadAssembly (156ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (234ms)
+		LoadAssemblies (291ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1362ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (621ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (450ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 5.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5521 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (0.6 MB). Loaded Objects now: 6292.
+Memory consumption went from 208.7 MB to 208.2 MB.
+Total: 3.745700 ms (FindLiveObjects: 0.414900 ms CreateObjectMapping: 0.460600 ms MarkObjects: 2.545300 ms  DeleteObjects: 0.324300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 449.852048 seconds.
+  path: Assets/Resources/Prefabs/BlueWinningScreen.prefab
+  artifactKey: Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BlueWinningScreen.prefab using Guid(8ff44013ac912d448a830c6c5f9d8a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d43026b21f8ef7c471bdb4bcaa4906') in 0.248629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 1002.915973 seconds.
+  path: Assets/Resources/Sprites/Menu/BlueWins.png
+  artifactKey: Guid(d989fa8ec48611647a290b3493f395ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Menu/BlueWins.png using Guid(d989fa8ec48611647a290b3493f395ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af5821cca59530560f55f161272d6a71') in 0.035145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/Sprites/Menu/RedWins.png
+  artifactKey: Guid(28b3ad7e15d57a047a9707f52eb98f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Menu/RedWins.png using Guid(28b3ad7e15d57a047a9707f52eb98f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba2a1d1b2e72e80d70c9d7235e3d757') in 0.018644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Resources/Sprites/Menu/voltar-Sprite.png
+  artifactKey: Guid(9941851e630bc01449cce433be8f8a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Menu/voltar-Sprite.png using Guid(9941851e630bc01449cce433be8f8a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '427a5259ff9ab39c74bc4307b5e627fe') in 0.020399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/Sprites/Menu/Menu-SpriteSheet.png
+  artifactKey: Guid(4bd4bce7af2221844bf0b423a3d42825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Menu/Menu-SpriteSheet.png using Guid(4bd4bce7af2221844bf0b423a3d42825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a602bfb397d058967834be6df0e943') in 0.028342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 118.765192 seconds.
+  path: Assets/Resources/Sprites/Menu/KnightRush - DrawScreen.png
+  artifactKey: Guid(284e88ffc6feae144849b09fa6b9545a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Menu/KnightRush - DrawScreen.png using Guid(284e88ffc6feae144849b09fa6b9545a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8aaa105b4049698bc48aa751b3beb4') in 0.018490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 10.980883 seconds.
+  path: Assets/Resources/Sprites/Menu/KnightRush - DrawScreen.png
+  artifactKey: Guid(284e88ffc6feae144849b09fa6b9545a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Menu/KnightRush - DrawScreen.png using Guid(284e88ffc6feae144849b09fa6b9545a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52af3e966066b43de173f678254a595b') in 0.015421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.560934 seconds.
+  path: Assets/Resources/Sprites/Menu/KnightRush - DrawScreen.png
+  artifactKey: Guid(284e88ffc6feae144849b09fa6b9545a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Menu/KnightRush - DrawScreen.png using Guid(284e88ffc6feae144849b09fa6b9545a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04b0c0a511ea7a2dcafb3318560a821') in 0.018031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 35.404331 seconds.
+  path: Assets/Resources/Prefabs/DrawScreen.prefab
+  artifactKey: Guid(a151af00af1cc22438c9d7f55775afc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/DrawScreen.prefab using Guid(a151af00af1cc22438c9d7f55775afc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad8abb68b0c406002d06ff4997dbe478') in 0.028726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 11.796473 seconds.
+  path: Assets/Resources/Sprites/Map/full tilemap.png
+  artifactKey: Guid(a12d31079fd84b4419aa0f3bface95f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Map/full tilemap.png using Guid(a12d31079fd84b4419aa0f3bface95f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4649a2cc470d4e7eb4dc05a88a904f2c') in 0.088734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/Sprites/Misc/pngwing.png
+  artifactKey: Guid(2db55a2889aff3b4183fa20ddce5cd97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Misc/pngwing.png using Guid(2db55a2889aff3b4183fa20ddce5cd97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857e786e8bf2a9d2a835af76aeb18208') in 0.020188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.826748 seconds.
+  path: Assets/Resources/Sprites/Misc/coinBlue.png
+  artifactKey: Guid(6f81622a38f518e4989822f4c883d7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Misc/coinBlue.png using Guid(6f81622a38f518e4989822f4c883d7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8899b14d340e2cd89a359ca75f02c80') in 0.019846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.331069 seconds.
+  path: Assets/Resources/Sprites/Players/Blueknight_idle_spritesheet.png
+  artifactKey: Guid(b8162932f8d1ff44e813e802321937bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Players/Blueknight_idle_spritesheet.png using Guid(b8162932f8d1ff44e813e802321937bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197994005d465e634f7c91cfaac90934') in 0.025419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.267831 seconds.
+  path: Assets/Resources/Sprites/Players/Blockers_sprite.png
+  artifactKey: Guid(33140ec3e78585945873bafa1a5cf9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Players/Blockers_sprite.png using Guid(33140ec3e78585945873bafa1a5cf9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c948635f37c1a5fb9ea0f6134d97e4') in 0.023690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 4.103499 seconds.
+  path: Assets/Resources/Prefabs/DrawScreen.prefab
+  artifactKey: Guid(a151af00af1cc22438c9d7f55775afc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/DrawScreen.prefab using Guid(a151af00af1cc22438c9d7f55775afc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674aeb8a0a0b0d88b45049551f4aff3c') in 0.024791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 120.564330 seconds.
+  path: Assets/Resources/Prefabs/DrawScreen.prefab
+  artifactKey: Guid(a151af00af1cc22438c9d7f55775afc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/DrawScreen.prefab using Guid(a151af00af1cc22438c9d7f55775afc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b91a8604b5136bc1de17d3b9eff6eb') in 0.027615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.957118 seconds.
+  path: Assets/Resources/Prefabs/DrawScreen.prefab
+  artifactKey: Guid(a151af00af1cc22438c9d7f55775afc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/DrawScreen.prefab using Guid(a151af00af1cc22438c9d7f55775afc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3323709dccaa5d7945544cedea0d380c') in 0.024156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 2.315828 seconds.
+  path: Assets/Resources/Prefabs/DrawScreen.prefab
+  artifactKey: Guid(a151af00af1cc22438c9d7f55775afc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/DrawScreen.prefab using Guid(a151af00af1cc22438c9d7f55775afc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d125c7faaa20666d4e418f61e5cf946') in 0.024897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 25.162533 seconds.
+  path: Assets/Resources/Prefabs/DrawScreen.prefab
+  artifactKey: Guid(a151af00af1cc22438c9d7f55775afc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/DrawScreen.prefab using Guid(a151af00af1cc22438c9d7f55775afc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42cb95df4b6c25e4c74a6e8227bf9a67') in 0.024432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 3.196283 seconds.
+  path: Assets/Resources/Prefabs/DrawScreen.prefab
+  artifactKey: Guid(a151af00af1cc22438c9d7f55775afc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/DrawScreen.prefab using Guid(a151af00af1cc22438c9d7f55775afc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09a6f06119a53130727ad5b9268f4c2') in 0.025744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 9.648893 seconds.
+  path: Assets/Resources/Prefabs/DrawScreen.prefab
+  artifactKey: Guid(a151af00af1cc22438c9d7f55775afc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/DrawScreen.prefab using Guid(a151af00af1cc22438c9d7f55775afc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '411581f2a0bf9bedf0885a9cc8c039ea') in 0.025268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 5.400754 seconds.
+  path: Assets/Resources/Prefabs/DrawScreen.prefab
+  artifactKey: Guid(a151af00af1cc22438c9d7f55775afc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/DrawScreen.prefab using Guid(a151af00af1cc22438c9d7f55775afc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f10889c30253869c4b4fd8a51684bc5') in 0.025731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 4.604235 seconds.
+  path: Assets/Resources/Prefabs/DrawScreen.prefab
+  artifactKey: Guid(a151af00af1cc22438c9d7f55775afc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/DrawScreen.prefab using Guid(a151af00af1cc22438c9d7f55775afc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f7cf8a07ab15dfb5f945e007cdcb2d2') in 0.024228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 9.031380 seconds.
+  path: Assets/Resources/Prefabs/DrawScreen.prefab
+  artifactKey: Guid(a151af00af1cc22438c9d7f55775afc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/DrawScreen.prefab using Guid(a151af00af1cc22438c9d7f55775afc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a930ee080583baf1834dd024f9a621a') in 0.024799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 5.407252 seconds.
+  path: Assets/Resources/Prefabs/DrawScreen.prefab
+  artifactKey: Guid(a151af00af1cc22438c9d7f55775afc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/DrawScreen.prefab using Guid(a151af00af1cc22438c9d7f55775afc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4298c3a95952bd8c6ea6bce7323019') in 0.025915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 60.100977 seconds.
+  path: Assets/Scenes/Stage01.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage01.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a976415f0d1df4b97c8a59765abaa6dc') in 0.000655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.529 seconds
+Refreshing native plugins compatible for Editor in 5.08 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.305 seconds
+Domain Reload Profiling: 2828ms
+	BeginReloadAssembly (171ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (279ms)
+		LoadAssemblies (343ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2305ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (652ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (465ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 5.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5521 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (0.6 MB). Loaded Objects now: 6357.
+Memory consumption went from 211.1 MB to 210.5 MB.
+Total: 5.577600 ms (FindLiveObjects: 0.493400 ms CreateObjectMapping: 0.516400 ms MarkObjects: 4.197500 ms  DeleteObjects: 0.369300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.486 seconds
+Refreshing native plugins compatible for Editor in 6.23 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.406 seconds
+Domain Reload Profiling: 1888ms
+	BeginReloadAssembly (166ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (240ms)
+		LoadAssemblies (312ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1407ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (638ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (463ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 5.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5521 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (0.6 MB). Loaded Objects now: 6362.
+Memory consumption went from 212.9 MB to 212.3 MB.
+Total: 4.664100 ms (FindLiveObjects: 0.426100 ms CreateObjectMapping: 0.427600 ms MarkObjects: 3.376200 ms  DeleteObjects: 0.432800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 144.737647 seconds.
+  path: Assets/Resources/Prefabs/DrawScreen.prefab
+  artifactKey: Guid(a151af00af1cc22438c9d7f55775afc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/DrawScreen.prefab using Guid(a151af00af1cc22438c9d7f55775afc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6520521835a4a5b53ab289f012bbdf08') in 0.224315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 73
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.491 seconds
+Refreshing native plugins compatible for Editor in 4.96 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.386 seconds
+Domain Reload Profiling: 1873ms
+	BeginReloadAssembly (169ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (248ms)
+		LoadAssemblies (313ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1387ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (646ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (460ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 6.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5521 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (0.6 MB). Loaded Objects now: 6404.
+Memory consumption went from 215.0 MB to 214.4 MB.
+Total: 4.508200 ms (FindLiveObjects: 0.476200 ms CreateObjectMapping: 0.489900 ms MarkObjects: 3.178400 ms  DeleteObjects: 0.362900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 448.120977 seconds.
+  path: Assets/Resources/Sprites/Menu/KnightRush - DrawScreen.png
+  artifactKey: Guid(284e88ffc6feae144849b09fa6b9545a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Menu/KnightRush - DrawScreen.png using Guid(284e88ffc6feae144849b09fa6b9545a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc8f1ca8e2e91b865949dd43dbbeaf4') in 0.070471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.915796 seconds.
+  path: Assets/Resources/Sprites/Menu/KnightRush - DrawScreen.png
+  artifactKey: Guid(284e88ffc6feae144849b09fa6b9545a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Menu/KnightRush - DrawScreen.png using Guid(284e88ffc6feae144849b09fa6b9545a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbfc2bc3a270fe63832c7bcbf284bd0e') in 0.018484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.480 seconds
+Refreshing native plugins compatible for Editor in 4.85 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.380 seconds
+Domain Reload Profiling: 1855ms
+	BeginReloadAssembly (156ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (246ms)
+		LoadAssemblies (301ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1380ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (635ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (457ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 6.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5521 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (0.6 MB). Loaded Objects now: 6409.
+Memory consumption went from 216.8 MB to 216.2 MB.
+Total: 3.849900 ms (FindLiveObjects: 0.505100 ms CreateObjectMapping: 0.485600 ms MarkObjects: 2.530100 ms  DeleteObjects: 0.328100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (0.6 MB). Loaded Objects now: 6409.
+Memory consumption went from 132.4 MB to 131.8 MB.
+Total: 4.051200 ms (FindLiveObjects: 0.429200 ms CreateObjectMapping: 0.461300 ms MarkObjects: 2.859200 ms  DeleteObjects: 0.300600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
